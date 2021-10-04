@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 .container{
     width: 70%;
     margin: auto;
@@ -18,20 +19,18 @@
 }
 
 
-/* *** HEADER *** */
-
-/* *** MAIN *** */
-
-/* *** FOOTER *** */
-
 /* *** DEBUG *** */
 
+/* *** box-top *** */
+
 .debug .box{
-    height: 400px;
     width: calc(100% / 3 - 10px);
-    background-color: coral;
     margin: 0 5px;
     float: left;
+}
+
+.debug .box-top{
+
     position: relative;
 }
 
@@ -48,4 +47,49 @@
 
 .heart::after{
     content: '\2665';
+}
+
+.discount{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+.debug .discount div{
+    height: 20px;
+    float: left;
+    margin-right: 3px;
+}
+
+.debug .discount span{
+    padding: 0 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+
+.debug .discount .value{
+    background-color: red;
+}
+
+.debug .discount .sustainability{
+    background-color: green;
+}
+
+.debug .box-top img{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+/* *** box-bottom *** */
+
+
+.debug .box-bottom{
+    width: 100%;
 }
