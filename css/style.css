@@ -30,7 +30,6 @@
 }
 
 .debug .box-top{
-
     position: relative;
 }
 
@@ -91,7 +90,7 @@
     display: none;
 }
 .debug .box-top:hover .hover-img{
-    display: block;
+    display: inline-block;
 }
 
 
