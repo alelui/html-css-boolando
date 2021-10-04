@@ -6,6 +6,17 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 
 /* *** HEADER *** */
 
@@ -13,3 +24,28 @@
 
 /* *** FOOTER *** */
 
+/* *** DEBUG *** */
+
+.debug .box{
+    height: 400px;
+    width: calc(100% / 3 - 10px);
+    background-color: coral;
+    margin: 0 5px;
+    float: left;
+    position: relative;
+}
+
+.debug .box .heart-box{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 8px;
+}
+
+.heart::after{
+    content: '\2665';
+}
