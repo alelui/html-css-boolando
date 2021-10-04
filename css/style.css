@@ -83,6 +83,17 @@
     object-fit: cover;
 }
 
+.debug .box-top .hover-img{
+    display: none;
+}
+
+.debug .box-top:hover .origin{
+    display: none;
+}
+.debug .box-top:hover .hover-img{
+    display: block;
+}
+
 
 
 
