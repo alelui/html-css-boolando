@@ -39,6 +39,7 @@ body{
 
 .box-top{
     position: relative;
+    cursor: pointer;
 }
 
 .box .heart-box{
@@ -109,7 +110,6 @@ body{
 .box-bottom{
     width: 100%;
 }
-
 
 .box-bottom span{
     color: lightgray;
